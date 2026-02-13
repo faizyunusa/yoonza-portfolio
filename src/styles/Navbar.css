@@ -1,0 +1,28 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #2a1f3e; /* slightly lighter than body */
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  color: #b48dff; /* mature purple accent */
+}
+
+.nav-links a {
+  margin-left: 40px;
+  font-weight: 500;
+  color: #d0bfff; /* soft purple/light lavender */
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffffff;
+}

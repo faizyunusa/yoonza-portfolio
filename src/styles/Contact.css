@@ -1,0 +1,25 @@
+.contact-page {
+  padding: 100px;
+  text-align: center;
+  color: #d0bfff; 
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1s ease;
+  border-radius: 1000px;
+}
+
+.contact-page.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.contact-page h2 {
+  font-size: 40px;
+  color: #b48dff; 
+  margin-bottom: 30px;
+}
+
+.contact-page p {
+  font-size: 20px;
+  margin: 10px 0;
+}
